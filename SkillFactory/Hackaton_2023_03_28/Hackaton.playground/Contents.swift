@@ -359,8 +359,8 @@ class ATM {
                   }
               }
           }
-          print("\r\n")
       }
+      print("\r\n")
   }
 }
 
