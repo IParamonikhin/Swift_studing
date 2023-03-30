@@ -239,18 +239,24 @@ class ATM {
     private let userCardId: String
     private let userCardPin: Int
     private var someBank: BankApi
-    private let action: UserActions
-    private let paymentMethod: PaymentMethod?
+    private let action: UserActions = .checkBalance
+    private let paymentMethod: PaymentMethod? = nil
  
-    init(userCardId: String, userCardPin: Int, someBank: BankApi, action: UserActions, paymentMethod: PaymentMethod? = nil) {
+    init(userCardId: String, userCardPin: Int, someBank: BankApi){//, action: UserActions, paymentMethod: PaymentMethod? = nil) {
         self.userCardId = userCardId
         self.userCardPin = userCardPin
         self.someBank = someBank
-        self.action = action
-        self.paymentMethod = paymentMethod
+        if self.someBank.checkCurrentUser(userCardId: userCardId, userCardPin: userCardPin){
+            print("""
+                    Вход выполнен
+                    
+                    """)
+        }
+//        self.action = action
+//        self.paymentMethod = paymentMethod
  
  
-        sendUserDataToBank(userCardId, userCardPin, action, paymentMethod)
+//        sendUserDataToBank(userCardId, userCardPin, action, paymentMethod)
   }
  
  
@@ -372,7 +378,7 @@ let Ivan: UserData = User(
 
 var testBank = Bank(user: Ivan)
 
-var test = ATM(userCardId: "8888", userCardPin: 1234, someBank: testBank, action: .checkBalance, paymentMethod: .card)
+var test = ATM(userCardId: "8888", userCardPin: 1234, someBank: testBank)//, action: .checkBalance, paymentMethod: .card)
 
 test.sendUserDataToBank("8888", 1234, .checkBalance, .card)
 test.sendUserDataToBank("8888", 1234, .checkBalance, .deposit)
