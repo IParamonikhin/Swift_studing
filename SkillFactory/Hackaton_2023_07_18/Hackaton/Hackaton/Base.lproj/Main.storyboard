@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hackaton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_image" translatesAutoresizingMaskIntoConstraints="NO" id="X94-qR-Hxx">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваш баланс" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJp-Tv-FlX">
+                                <rect key="frame" x="16" y="84" width="361" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="ytz-hW-OFg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" name="font_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCT-5r-uiX">
+                                <rect key="frame" x="16" y="119" width="361" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="qpg-R5-19E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                <color key="textColor" name="font_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APm-4h-U9d">
+                                <rect key="frame" x="16" y="244" width="366" height="100"/>
+                                <color key="backgroundColor" name="back_color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="l7L-Jn-ByM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Снять наличные">
+                                    <color key="titleColor" name="font_color"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bE-H3-uIk">
+                                <rect key="frame" x="16" y="369" width="366" height="100"/>
+                                <color key="backgroundColor" name="back_color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="zhH-AM-ejD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Пополнить счет">
+                                    <color key="titleColor" name="font_color"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXb-a1-N9r">
+                                <rect key="frame" x="16" y="494" width="366" height="100"/>
+                                <color key="backgroundColor" name="back_color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5FB-eT-WAu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Пополнить счет мобильного">
+                                    <color key="titleColor" name="font_color"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="back_color"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="X94-qR-Hxx" secondAttribute="trailing" id="4ve-R2-Kv9"/>
+                            <constraint firstItem="X94-qR-Hxx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4xL-9v-JfQ"/>
+                            <constraint firstItem="6bE-H3-uIk" firstAttribute="trailing" secondItem="gXb-a1-N9r" secondAttribute="trailing" id="58s-Vn-8J2"/>
+                            <constraint firstItem="KCT-5r-uiX" firstAttribute="leading" secondItem="APm-4h-U9d" secondAttribute="leading" id="83c-Go-AWV"/>
+                            <constraint firstItem="KCT-5r-uiX" firstAttribute="top" secondItem="XJp-Tv-FlX" secondAttribute="bottom" constant="10" id="AVt-Mo-RxA"/>
+                            <constraint firstItem="APm-4h-U9d" firstAttribute="top" secondItem="KCT-5r-uiX" secondAttribute="bottom" constant="25" id="BlR-H6-9Z8"/>
+                            <constraint firstItem="XJp-Tv-FlX" firstAttribute="leading" secondItem="KCT-5r-uiX" secondAttribute="leading" id="Mk3-wT-k2t"/>
+                            <constraint firstItem="XJp-Tv-FlX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="PPZ-9M-3iZ"/>
+                            <constraint firstItem="X94-qR-Hxx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QIb-GC-dgH"/>
+                            <constraint firstItem="APm-4h-U9d" firstAttribute="leading" secondItem="6bE-H3-uIk" secondAttribute="leading" id="TFR-WJ-nzy"/>
+                            <constraint firstItem="X94-qR-Hxx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ahL-z5-dkt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="APm-4h-U9d" secondAttribute="trailing" constant="11" id="c6f-eL-cP2"/>
+                            <constraint firstItem="XJp-Tv-FlX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h3V-OZ-NJx"/>
+                            <constraint firstItem="X94-qR-Hxx" firstAttribute="centerX" secondItem="XJp-Tv-FlX" secondAttribute="centerX" id="iVa-hO-hyw"/>
+                            <constraint firstItem="gXb-a1-N9r" firstAttribute="top" secondItem="6bE-H3-uIk" secondAttribute="bottom" constant="25" id="kSA-16-v6J"/>
+                            <constraint firstItem="APm-4h-U9d" firstAttribute="trailing" secondItem="6bE-H3-uIk" secondAttribute="trailing" id="l3G-J7-3do"/>
+                            <constraint firstItem="6bE-H3-uIk" firstAttribute="leading" secondItem="gXb-a1-N9r" secondAttribute="leading" id="pd7-JY-Rnd"/>
+                            <constraint firstItem="6bE-H3-uIk" firstAttribute="top" secondItem="APm-4h-U9d" secondAttribute="bottom" constant="25" id="vIT-z0-aoc"/>
+                            <constraint firstItem="XJp-Tv-FlX" firstAttribute="trailing" secondItem="KCT-5r-uiX" secondAttribute="trailing" id="ylU-Jt-jyd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="depositBtn" destination="6bE-H3-uIk" id="BoS-fd-IYk"/>
+                        <outlet property="mobileBtn" destination="gXb-a1-N9r" id="ahN-jm-fDa"/>
+                        <outlet property="withdrawalBtn" destination="APm-4h-U9d" id="hjS-aM-r4r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.1679389312977" y="-2.1126760563380285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="21h-Jf-dn9">
+            <objects>
+                <viewController id="Zej-Gs-t19" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o76-SR-0eP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="450"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxn-Xv-mhU">
+                                <rect key="frame" x="290" y="389" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zp5-QH-8Kr"/>
+                        <color key="backgroundColor" name="back_color"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <size key="freeformSize" width="393" height="450"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9t-9p-kFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="140"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_image" width="3450" height="3450"/>
+        <namedColor name="back_color">
+            <color red="0.1390275061" green="0.0034655493220000001" blue="0.2633114755" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="font_color">
+            <color red="1" green="0.39388435692065971" blue="0.62853255436474642" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
