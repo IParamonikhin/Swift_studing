@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233FB89FAC1AE8EAFE9428F7 /* Pods_Hackaton_realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCDF004DF28006154E9C400 /* Pods_Hackaton_realm.framework */; };
+		2C578FE32A6D364600306ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C578FE22A6D364600306ACB /* AppDelegate.swift */; };
+		2C578FE52A6D364600306ACB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C578FE42A6D364600306ACB /* SceneDelegate.swift */; };
+		2C578FE72A6D364600306ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C578FE62A6D364600306ACB /* ViewController.swift */; };
+		2C578FEA2A6D364600306ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C578FE82A6D364600306ACB /* Main.storyboard */; };
+		2C578FED2A6D364600306ACB /* Hackaton_realm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C578FEB2A6D364600306ACB /* Hackaton_realm.xcdatamodeld */; };
+		2C578FEF2A6D364800306ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C578FEE2A6D364800306ACB /* Assets.xcassets */; };
+		2C578FF22A6D364800306ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C578FF02A6D364800306ACB /* LaunchScreen.storyboard */; };
+		2C578FFA2A6D3AFB00306ACB /* withdrawalCashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C578FF92A6D3AFB00306ACB /* withdrawalCashView.xib */; };
+		2C578FFF2A6D3CE100306ACB /* refillCashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C578FFE2A6D3CE100306ACB /* refillCashView.xib */; };
+		2C5790012A6D404D00306ACB /* mobileRefillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5790002A6D404D00306ACB /* mobileRefillView.xib */; };
+		2C5790032A6D492700306ACB /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5790022A6D492700306ACB /* ActionViewController.swift */; };
+		2C5790052A6D501000306ACB /* withdrawalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5790042A6D501000306ACB /* withdrawalView.swift */; };
+		2C5790072A6D503D00306ACB /* refillCashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5790062A6D503D00306ACB /* refillCashView.swift */; };
+		2C57900A2A6D506A00306ACB /* mobileRefillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5790092A6D506A00306ACB /* mobileRefillView.swift */; };
+		2C57900C2A72EE7E00306ACB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57900B2A72EE7D00306ACB /* Model.swift */; };
+		2C5790142A72FB0300306ACB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5790122A72FB0300306ACB /* CustomCell.swift */; };
+		2C5790152A72FB0300306ACB /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5790132A72FB0300306ACB /* CustomCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DCDF004DF28006154E9C400 /* Pods_Hackaton_realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackaton_realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C578FDF2A6D364600306ACB /* Hackaton_realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackaton_realm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C578FE22A6D364600306ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Hackaton_realm/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		2C578FE42A6D364600306ACB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C578FE62A6D364600306ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C578FE92A6D364600306ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C578FEC2A6D364600306ACB /* Hackaton_realm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hackaton_realm.xcdatamodel; sourceTree = "<group>"; };
+		2C578FEE2A6D364800306ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C578FF12A6D364800306ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C578FF32A6D364800306ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C578FF92A6D3AFB00306ACB /* withdrawalCashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = withdrawalCashView.xib; path = Hackaton_realm/CustomViews/withdrawalCashView.xib; sourceTree = SOURCE_ROOT; };
+		2C578FFE2A6D3CE100306ACB /* refillCashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = refillCashView.xib; path = Hackaton_realm/CustomViews/refillCashView.xib; sourceTree = SOURCE_ROOT; };
+		2C5790002A6D404D00306ACB /* mobileRefillView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = mobileRefillView.xib; path = Hackaton_realm/CustomViews/mobileRefillView.xib; sourceTree = SOURCE_ROOT; };
+		2C5790022A6D492700306ACB /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		2C5790042A6D501000306ACB /* withdrawalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withdrawalView.swift; sourceTree = "<group>"; };
+		2C5790062A6D503D00306ACB /* refillCashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = refillCashView.swift; path = Hackaton_realm/CustomViews/refillCashView.swift; sourceTree = SOURCE_ROOT; };
+		2C5790092A6D506A00306ACB /* mobileRefillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileRefillView.swift; sourceTree = "<group>"; };
+		2C57900B2A72EE7D00306ACB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2C5790122A72FB0300306ACB /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2C5790132A72FB0300306ACB /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		89360B4D22FD62FACC14243F /* Pods-Hackaton_realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackaton_realm.release.xcconfig"; path = "Target Support Files/Pods-Hackaton_realm/Pods-Hackaton_realm.release.xcconfig"; sourceTree = "<group>"; };
+		E0BD5B06D13DF35D7061C18A /* Pods-Hackaton_realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackaton_realm.debug.xcconfig"; path = "Target Support Files/Pods-Hackaton_realm/Pods-Hackaton_realm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C578FDC2A6D364600306ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233FB89FAC1AE8EAFE9428F7 /* Pods_Hackaton_realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A993AF5F6AE3C2AE280C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DCDF004DF28006154E9C400 /* Pods_Hackaton_realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C578FD62A6D364600306ACB = {
+			isa = PBXGroup;
+			children = (
+				2C578FE12A6D364600306ACB /* Hackaton_realm */,
+				2C578FE02A6D364600306ACB /* Products */,
+				5EA9DFED3F791BB0EB11B35A /* Pods */,
+				11A993AF5F6AE3C2AE280C50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C578FE02A6D364600306ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C578FDF2A6D364600306ACB /* Hackaton_realm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C578FE12A6D364600306ACB /* Hackaton_realm */ = {
+			isa = PBXGroup;
+			children = (
+				2C57900D2A72F06400306ACB /* CustomCell */,
+				2C578FFB2A6D3C5D00306ACB /* CustomViews */,
+				2C578FE22A6D364600306ACB /* AppDelegate.swift */,
+				2C578FE42A6D364600306ACB /* SceneDelegate.swift */,
+				2C57900B2A72EE7D00306ACB /* Model.swift */,
+				2C578FE62A6D364600306ACB /* ViewController.swift */,
+				2C5790022A6D492700306ACB /* ActionViewController.swift */,
+				2C578FE82A6D364600306ACB /* Main.storyboard */,
+				2C578FEE2A6D364800306ACB /* Assets.xcassets */,
+				2C578FF02A6D364800306ACB /* LaunchScreen.storyboard */,
+				2C578FF32A6D364800306ACB /* Info.plist */,
+				2C578FEB2A6D364600306ACB /* Hackaton_realm.xcdatamodeld */,
+			);
+			path = Hackaton_realm;
+			sourceTree = "<group>";
+		};
+		2C578FFB2A6D3C5D00306ACB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2C5790042A6D501000306ACB /* withdrawalView.swift */,
+				2C578FF92A6D3AFB00306ACB /* withdrawalCashView.xib */,
+				2C5790062A6D503D00306ACB /* refillCashView.swift */,
+				2C578FFE2A6D3CE100306ACB /* refillCashView.xib */,
+				2C5790092A6D506A00306ACB /* mobileRefillView.swift */,
+				2C5790002A6D404D00306ACB /* mobileRefillView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		2C57900D2A72F06400306ACB /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C5790122A72FB0300306ACB /* CustomCell.swift */,
+				2C5790132A72FB0300306ACB /* CustomCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		5EA9DFED3F791BB0EB11B35A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD5B06D13DF35D7061C18A /* Pods-Hackaton_realm.debug.xcconfig */,
+				89360B4D22FD62FACC14243F /* Pods-Hackaton_realm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C578FDE2A6D364600306ACB /* Hackaton_realm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C578FF62A6D364800306ACB /* Build configuration list for PBXNativeTarget "Hackaton_realm" */;
+			buildPhases = (
+				9C5823E1AF4FBF7A6AC160EB /* [CP] Check Pods Manifest.lock */,
+				2C578FDB2A6D364600306ACB /* Sources */,
+				2C578FDC2A6D364600306ACB /* Frameworks */,
+				2C578FDD2A6D364600306ACB /* Resources */,
+				E113FBF955F444091A3D09FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hackaton_realm;
+			productName = Hackaton_realm;
+			productReference = 2C578FDF2A6D364600306ACB /* Hackaton_realm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C578FD72A6D364600306ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2C578FDE2A6D364600306ACB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C578FDA2A6D364600306ACB /* Build configuration list for PBXProject "Hackaton_realm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C578FD62A6D364600306ACB;
+			productRefGroup = 2C578FE02A6D364600306ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C578FDE2A6D364600306ACB /* Hackaton_realm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C578FDD2A6D364600306ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C578FFA2A6D3AFB00306ACB /* withdrawalCashView.xib in Resources */,
+				2C578FF22A6D364800306ACB /* LaunchScreen.storyboard in Resources */,
+				2C5790152A72FB0300306ACB /* CustomCell.xib in Resources */,
+				2C5790012A6D404D00306ACB /* mobileRefillView.xib in Resources */,
+				2C578FEF2A6D364800306ACB /* Assets.xcassets in Resources */,
+				2C578FFF2A6D3CE100306ACB /* refillCashView.xib in Resources */,
+				2C578FEA2A6D364600306ACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C5823E1AF4FBF7A6AC160EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackaton_realm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E113FBF955F444091A3D09FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hackaton_realm/Pods-Hackaton_realm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hackaton_realm/Pods-Hackaton_realm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hackaton_realm/Pods-Hackaton_realm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C578FDB2A6D364600306ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C57900C2A72EE7E00306ACB /* Model.swift in Sources */,
+				2C578FED2A6D364600306ACB /* Hackaton_realm.xcdatamodeld in Sources */,
+				2C5790142A72FB0300306ACB /* CustomCell.swift in Sources */,
+				2C5790032A6D492700306ACB /* ActionViewController.swift in Sources */,
+				2C57900A2A6D506A00306ACB /* mobileRefillView.swift in Sources */,
+				2C578FE72A6D364600306ACB /* ViewController.swift in Sources */,
+				2C5790052A6D501000306ACB /* withdrawalView.swift in Sources */,
+				2C5790072A6D503D00306ACB /* refillCashView.swift in Sources */,
+				2C578FE32A6D364600306ACB /* AppDelegate.swift in Sources */,
+				2C578FE52A6D364600306ACB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C578FE82A6D364600306ACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C578FE92A6D364600306ACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C578FF02A6D364800306ACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C578FF12A6D364800306ACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C578FF42A6D364800306ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C578FF52A6D364800306ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C578FF72A6D364800306ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BD5B06D13DF35D7061C18A /* Pods-Hackaton_realm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5V4FRQ99J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hackaton_realm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.piv.Hackaton-realm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C578FF82A6D364800306ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89360B4D22FD62FACC14243F /* Pods-Hackaton_realm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5V4FRQ99J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hackaton_realm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.piv.Hackaton-realm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C578FDA2A6D364600306ACB /* Build configuration list for PBXProject "Hackaton_realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C578FF42A6D364800306ACB /* Debug */,
+				2C578FF52A6D364800306ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C578FF62A6D364800306ACB /* Build configuration list for PBXNativeTarget "Hackaton_realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C578FF72A6D364800306ACB /* Debug */,
+				2C578FF82A6D364800306ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C578FEB2A6D364600306ACB /* Hackaton_realm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C578FEC2A6D364600306ACB /* Hackaton_realm.xcdatamodel */,
+			);
+			currentVersion = 2C578FEC2A6D364600306ACB /* Hackaton_realm.xcdatamodel */;
+			path = Hackaton_realm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C578FD72A6D364600306ACB /* Project object */;
+}

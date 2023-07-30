@@ -1,0 +1,6 @@
+framework module Pods_Hackaton_realm {
+  umbrella header "Pods-Hackaton_realm-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9BDF6455-9062-45EB-B262-8B434CA566B7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1583B4FA-DD5B-41E9-9F72-18DC3AD9DD2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackaton_realm/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3519F2F-EC33-4224-927D-9138F14C4AF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackaton_realm/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "withdrawalCallback(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78E5ADBE-3993-40DD-8AFA-F6052C9C093A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackaton_realm/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "updateBalance(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C47AE222-C5E0-40D8-85E3-ABA48ECC526F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackaton_realm/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "updateBalance(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C47AE222-C5E0-40D8-85E3-ABA48ECC526F - ad21de3b80eb93a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackaton_realm.ViewController.updateBalance(Swift.Float, Hackaton_realm.BalanceAction) -&gt; ()"
+                  moduleName = "Hackaton_realm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Swift/SkillFactory/Hackaton_2023_07_18/Hackaton_realm/Hackaton_realm/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "C47AE222-C5E0-40D8-85E3-ABA48ECC526F - e36fb3985d991262"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Hackaton_realm.ViewController.updateBalance(Swift.Float, Hackaton_realm.BalanceAction) -&gt; ()"
+                  moduleName = "Hackaton_realm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Swift/SkillFactory/Hackaton_2023_07_18/Hackaton_realm/Hackaton_realm/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2699378-5EC9-4089-A367-B23C8D69A7B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackaton_realm/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "updateBalance(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D2699378-5EC9-4089-A367-B23C8D69A7B7 - ad21de3b80eb92cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackaton_realm.ViewController.updateBalance(Swift.Float, Hackaton_realm.BalanceAction) -&gt; ()"
+                  moduleName = "Hackaton_realm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Swift/SkillFactory/Hackaton_2023_07_18/Hackaton_realm/Hackaton_realm/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "D2699378-5EC9-4089-A367-B23C8D69A7B7 - ad21de3b80eb92cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackaton_realm.ViewController.updateBalance(Swift.Float, Hackaton_realm.BalanceAction) -&gt; ()"
+                  moduleName = "Hackaton_realm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Swift/SkillFactory/Hackaton_2023_07_18/Hackaton_realm/Hackaton_realm/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC53C16A-86F6-474C-BF37-5B5BD6398E89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackaton_realm/ActionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "acceptBtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

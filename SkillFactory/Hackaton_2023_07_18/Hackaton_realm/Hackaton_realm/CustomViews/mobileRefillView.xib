@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="mobileRefillView" customModule="Hackaton_realm" customModuleProvider="target">
+            <connections>
+                <outlet property="countTextField" destination="WHG-Cr-Y2e" id="smN-aM-oll"/>
+                <outlet property="mobileTextField" destination="3VR-k9-A1X" id="vNZ-UX-FaN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0zD-zm-ttu">
+            <rect key="frame" x="0.0" y="0.0" width="361" height="207"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3VR-k9-A1X">
+                    <rect key="frame" x="10" y="69" width="341" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WHG-Cr-Y2e">
+                    <rect key="frame" x="10" y="154" width="341" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите сумму пополнения" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzT-VN-e3g">
+                    <rect key="frame" x="10" y="123" width="341" height="21"/>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                    <color key="textColor" name="font_color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите номер телефона" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lc1-MA-KZv">
+                    <rect key="frame" x="10" y="32" width="341" height="20.333333333333329"/>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                    <color key="textColor" name="font_color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="UDJ-BB-XI6"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pzT-VN-e3g" firstAttribute="leading" secondItem="WHG-Cr-Y2e" secondAttribute="leading" id="3zn-1F-jza"/>
+                <constraint firstItem="3VR-k9-A1X" firstAttribute="top" secondItem="Lc1-MA-KZv" secondAttribute="bottom" constant="16.666666666666671" id="5dq-9b-7zp"/>
+                <constraint firstItem="pzT-VN-e3g" firstAttribute="top" secondItem="3VR-k9-A1X" secondAttribute="bottom" constant="20" id="7Z6-cl-HuH"/>
+                <constraint firstItem="3VR-k9-A1X" firstAttribute="leading" secondItem="pzT-VN-e3g" secondAttribute="leading" id="8Sh-GS-gRB"/>
+                <constraint firstItem="3VR-k9-A1X" firstAttribute="leading" secondItem="UDJ-BB-XI6" secondAttribute="leading" constant="10" id="Em5-wO-ThL"/>
+                <constraint firstItem="3VR-k9-A1X" firstAttribute="trailing" secondItem="pzT-VN-e3g" secondAttribute="trailing" id="Hg4-zm-Jjs"/>
+                <constraint firstItem="Lc1-MA-KZv" firstAttribute="trailing" secondItem="3VR-k9-A1X" secondAttribute="trailing" id="Jcs-Ae-UPM"/>
+                <constraint firstItem="Lc1-MA-KZv" firstAttribute="centerX" secondItem="0zD-zm-ttu" secondAttribute="centerX" id="LFW-cT-85T"/>
+                <constraint firstItem="Lc1-MA-KZv" firstAttribute="leading" secondItem="3VR-k9-A1X" secondAttribute="leading" id="Rw9-H3-Wry"/>
+                <constraint firstItem="WHG-Cr-Y2e" firstAttribute="top" secondItem="pzT-VN-e3g" secondAttribute="bottom" constant="10" id="YRP-d2-oEI"/>
+                <constraint firstItem="3VR-k9-A1X" firstAttribute="top" secondItem="UDJ-BB-XI6" secondAttribute="top" constant="10" id="cI7-hn-iGp"/>
+                <constraint firstItem="pzT-VN-e3g" firstAttribute="trailing" secondItem="WHG-Cr-Y2e" secondAttribute="trailing" id="cKQ-PR-zuI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="85" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="font_color">
+            <color red="1" green="0.39399999380111694" blue="0.62900000810623169" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

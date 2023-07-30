@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hackaton_realm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_image" translatesAutoresizingMaskIntoConstraints="NO" id="iW2-pe-Qal">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваш баланс" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1MH-Ko-Va7">
+                                <rect key="frame" x="10" y="69" width="373" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="2wl-Ou-mij"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" name="font_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpX-pc-qSn">
+                                <rect key="frame" x="10" y="104" width="373" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="JeC-1e-vJW"/>
+                                    <constraint firstAttribute="height" constant="100" id="Kod-q3-dxo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="50"/>
+                                <color key="textColor" name="font_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SWl-Te-1Rv">
+                                <rect key="frame" x="10" y="699" width="373" height="109"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-g8-s0V">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="33"/>
+                                        <color key="backgroundColor" name="back_color"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Снять наличные">
+                                            <color key="titleColor" name="font_color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="withdrawalBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MhJ-kA-hKr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0b-QG-02o">
+                                        <rect key="frame" x="0.0" y="38" width="373" height="33"/>
+                                        <color key="backgroundColor" name="back_color"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Пополнить счет">
+                                            <color key="titleColor" name="font_color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="refillDepositBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fn9-B0-sj8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaH-Fw-MY9">
+                                        <rect key="frame" x="0.0" y="76" width="373" height="33"/>
+                                        <color key="backgroundColor" name="back_color"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Пополнить счет мобильного">
+                                            <color key="titleColor" name="font_color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="refillMobileBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yvt-g3-zza"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="История операций" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DF-Tg-bTr">
+                                <rect key="frame" x="10" y="214" width="373" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Ct7-o3-bni"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="j3J-ge-kMW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" name="font_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="97h-zj-2Hz">
+                                <rect key="frame" x="10" y="249" width="373" height="440"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="back_color"/>
+                        <constraints>
+                            <constraint firstItem="iW2-pe-Qal" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9zb-aR-UhE"/>
+                            <constraint firstItem="iW2-pe-Qal" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CI8-s5-xCf"/>
+                            <constraint firstItem="1MH-Ko-Va7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="D48-lb-H4W"/>
+                            <constraint firstItem="lpX-pc-qSn" firstAttribute="top" secondItem="1MH-Ko-Va7" secondAttribute="bottom" constant="10" id="EP1-Au-05R"/>
+                            <constraint firstItem="1MH-Ko-Va7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GPM-Lb-L9j"/>
+                            <constraint firstItem="SWl-Te-1Rv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Kvk-xE-SCk"/>
+                            <constraint firstItem="1MH-Ko-Va7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LgJ-BF-s26"/>
+                            <constraint firstItem="97h-zj-2Hz" firstAttribute="top" secondItem="6DF-Tg-bTr" secondAttribute="bottom" constant="10" id="NLT-gU-MyN"/>
+                            <constraint firstItem="6DF-Tg-bTr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="NyC-Du-ZIS"/>
+                            <constraint firstItem="lpX-pc-qSn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="SBm-sb-YdR"/>
+                            <constraint firstItem="1MH-Ko-Va7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="VG3-K4-YyO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lpX-pc-qSn" secondAttribute="trailing" constant="10" id="YgK-tw-Lwc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="97h-zj-2Hz" secondAttribute="trailing" constant="10" id="Zdq-M3-yTf"/>
+                            <constraint firstItem="97h-zj-2Hz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="cLe-5A-bLe"/>
+                            <constraint firstItem="SWl-Te-1Rv" firstAttribute="top" secondItem="97h-zj-2Hz" secondAttribute="bottom" constant="10" id="dAo-QN-o4b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6DF-Tg-bTr" secondAttribute="trailing" constant="10" id="ghY-WU-tBM"/>
+                            <constraint firstItem="iW2-pe-Qal" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kse-JD-WU6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SWl-Te-1Rv" secondAttribute="trailing" constant="10" id="neE-H6-msv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1MH-Ko-Va7" secondAttribute="trailing" constant="10" id="ora-3f-gy7"/>
+                            <constraint firstItem="6DF-Tg-bTr" firstAttribute="top" secondItem="lpX-pc-qSn" secondAttribute="bottom" constant="10" id="tR3-OW-nWd"/>
+                            <constraint firstItem="iW2-pe-Qal" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="v10-Xz-d6J"/>
+                            <constraint firstItem="SWl-Te-1Rv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-10" id="xb6-9x-dk8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="balanceLabel" destination="lpX-pc-qSn" id="Wq2-cX-xoh"/>
+                        <outlet property="mobileRefileBtn" destination="zaH-Fw-MY9" id="ueu-iF-9co"/>
+                        <outlet property="refillBtn" destination="T0b-QG-02o" id="s0l-Kf-fCF"/>
+                        <outlet property="tableView" destination="97h-zj-2Hz" id="HKg-A3-fIi"/>
+                        <outlet property="withdrawalBtn" destination="ee9-g8-s0V" id="DAY-16-9E1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182.44274809160305" y="1.4084507042253522"/>
+        </scene>
+        <!--Action View Controller-->
+        <scene sceneID="g9i-Mh-6JR">
+            <objects>
+                <viewController storyboardIdentifier="ActionVC" id="wb0-z0-m8b" customClass="ActionViewController" customModule="Hackaton_realm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kzD-qH-nPg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_image" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmC-68-QNP">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egd-W3-HVZ">
+                                <rect key="frame" x="16" y="201" width="361" height="475"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="kPW-cA-NLx"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxG-1R-cI3">
+                                <rect key="frame" x="286" y="765" width="87" height="33"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Принять">
+                                    <color key="titleColor" name="font_color"/>
+                                </state>
+                                <connections>
+                                    <action selector="acceptBtnAction:" destination="wb0-z0-m8b" eventType="touchUpInside" id="Skh-pN-NJA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sG6-YJ-Mlv"/>
+                        <color key="backgroundColor" name="back_color"/>
+                        <constraints>
+                            <constraint firstItem="hmC-68-QNP" firstAttribute="leading" secondItem="sG6-YJ-Mlv" secondAttribute="leading" id="0kb-nQ-E44"/>
+                            <constraint firstItem="hmC-68-QNP" firstAttribute="top" secondItem="sG6-YJ-Mlv" secondAttribute="top" id="4Nk-WB-Cka"/>
+                            <constraint firstItem="egd-W3-HVZ" firstAttribute="centerY" secondItem="hmC-68-QNP" secondAttribute="centerY" id="EWG-Jt-2U2"/>
+                            <constraint firstItem="egd-W3-HVZ" firstAttribute="top" secondItem="sG6-YJ-Mlv" secondAttribute="top" constant="142" id="Kw7-4J-Tfg"/>
+                            <constraint firstItem="hmC-68-QNP" firstAttribute="bottom" secondItem="sG6-YJ-Mlv" secondAttribute="bottom" id="OwJ-cB-Met"/>
+                            <constraint firstItem="sG6-YJ-Mlv" firstAttribute="trailing" secondItem="dxG-1R-cI3" secondAttribute="trailing" constant="20" id="RfV-3a-Dya"/>
+                            <constraint firstItem="egd-W3-HVZ" firstAttribute="centerX" secondItem="sG6-YJ-Mlv" secondAttribute="centerX" id="r6h-zN-4Pg"/>
+                            <constraint firstItem="hmC-68-QNP" firstAttribute="trailing" secondItem="sG6-YJ-Mlv" secondAttribute="trailing" id="rxs-hO-sue"/>
+                            <constraint firstItem="sG6-YJ-Mlv" firstAttribute="bottom" secondItem="dxG-1R-cI3" secondAttribute="bottom" constant="20" id="uvO-Ge-wRo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="acceptBtn" destination="dxG-1R-cI3" id="tfL-PP-QjP"/>
+                        <outlet property="customView" destination="egd-W3-HVZ" id="iUx-iM-m7M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c7U-ax-HZf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="530.53435114503816" y="-4.2253521126760569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_image" width="3450" height="3450"/>
+        <namedColor name="back_color">
+            <color red="0.13899999856948853" green="0.0030000000260770321" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="font_color">
+            <color red="1" green="0.39399999380111694" blue="0.62900000810623169" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
